@@ -61,6 +61,33 @@ var app = new Vue({
 </p>
 </details>
 
+3. Use Vue to print text and when inputting app.seen = 0 into the console, the text dissapears
+
+<details><summary>Solution</summary>
+<p>
+
+```html
+<head>
+  <script src=" https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <span v-if="seen">Now you see me</span>
+  </div>
+</body
+```
+
+```javascript
+var app = new Vue ({
+  el: '#app',
+  data: {
+    seen: true
+  }
+})
+```
+
+</p>
+</details>
 # FAQ
 
 1. What is a div?
