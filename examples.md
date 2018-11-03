@@ -60,3 +60,9 @@ var app = new Vue({
 
 </p>
 </details>
+
+# FAQ
+
+1. What is a div?
+2. Why can't I print "Hello Vue!" in HTML
+3. What is Vue?
