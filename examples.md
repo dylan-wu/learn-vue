@@ -61,7 +61,7 @@ var app = new Vue({
 </p>
 </details>
 
-3. Use Vue to print text and when inputting app.seen = 0 into the console, the text dissapears
+3. Use v-if to print text and when inputting app.seen = 0 into the console, the text dissapears
 
 <details><summary>Solution</summary>
 <p>
@@ -88,6 +88,45 @@ var app = new Vue ({
 
 </p>
 </details>
+
+4. Use v-for to print a to-do list
+
+<details><summary>Solution</summary>
+<p>
+
+```html
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <ol>
+      <li v-for="todo in todos">
+        {{ todo.text }}
+      </li>
+    </ol>
+  </div>
+</body>
+```
+
+```javascript
+var app = new Vue({
+  el: '#app',
+  data: {
+    todos: [
+      { text: 'Learn JavaScript' },
+      { text: 'Learn Vue' },
+      { text: 'Build something awesome' }
+    ]
+  }
+})
+
+```
+
+</p>
+</details>
+
+
 # FAQ
 
 1. What is a div?
