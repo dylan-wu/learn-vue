@@ -2,6 +2,8 @@
 
 1. Use Vue to print Hello Vue!
 
+Vue.js cdn: https://cdn.jsdelivr.net/npm/vue/dist/vue.js
+
 <details><summary>Solution</summary>
 <p>
 
