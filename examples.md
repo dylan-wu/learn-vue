@@ -1,6 +1,4 @@
-# Boiler Plate
-
-<details><summary>Solution</summary>
+<details><summary>Boiler Plate</summary>
 <p>
 
 ```html
