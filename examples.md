@@ -1,3 +1,30 @@
+# Boiler Plate
+
+<details><summary>Solution</summary>
+<p>
+
+```html
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    ...
+  </div>
+</body>
+```
+
+```javascript
+var app = new Vue({
+  el: '#app',
+  data:{
+  }
+})
+```
+
+</p>
+</details>
+
 # Hello Vue
 
 1. Use Vue to print Hello Vue!
