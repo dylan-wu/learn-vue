@@ -126,6 +126,39 @@ var app = new Vue({
 </p>
 </details>
 
+5. Use v-on:click to reverse a message
+
+<details><summary>Solution</summary>
+<p>
+
+```html
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+  </div>
+</body>
+```
+
+```javascript
+var app5 = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue.js!'
+  },
+  methods: {
+    reverseMessage: function () {
+      this.message = this.message.split('').reverse().join('')
+    }
+  }
+})
+```
+
+</p>
+</details>
 
 # FAQ
 
